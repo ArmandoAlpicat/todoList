@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(244, 211, 126);
+}
+
+#box{
+    margin-bottom: 20px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    background-color: rgb(68, 68, 68);
+    border-radius: 5px;
+    min-width: 170px;
+}
+
+lable{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+button{
+    margin: 3px;
+    border:none; 
+    background-image: url(../assets/x.svg); 
+    background-position:center; 
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    width: 10px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: rgb(207, 101, 101);
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 144, 144);
+}
+
+input{
+    margin: 3px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.delete{
+    margin-left: 6px;
+}
+
+.done{
+    margin-left: 10px;
+}
